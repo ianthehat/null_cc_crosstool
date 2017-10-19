@@ -1,0 +1,51 @@
+major_version: "null"
+minor_version: ""
+default_target_cpu: "same_as_host"
+
+default_toolchain {
+  cpu: "k8"
+  toolchain_identifier: "null-k8"
+}
+
+toolchain {
+  abi_version: "null"
+  abi_libc_version: "null"
+  compiler: "compiler"
+  host_system_name: "k8"
+  target_libc: "null"
+  target_cpu: "k8"
+  target_system_name: "k8"
+  toolchain_identifier: "null-k8"
+}
+
+default_toolchain {
+  cpu: "x64_windows"
+  toolchain_identifier: "null-x64_windows"
+}
+
+toolchain {
+  abi_version: "null"
+  abi_libc_version: "null"
+  compiler: "compiler"
+  host_system_name: "x64_windows"
+  target_libc: "null"
+  target_cpu: "x64_windows"
+  target_system_name: "x64_windows"
+  toolchain_identifier: "null-x64_windows"
+}
+
+default_toolchain {
+  cpu: "x64_windows_msvc"
+  toolchain_identifier: "null-x64_windows_msvc"
+}
+
+toolchain {
+  abi_version: "null"
+  abi_libc_version: "null"
+  compiler: "compiler"
+  host_system_name: "x64_windows_msvc"
+  target_libc: "null"
+  target_cpu: "x64_windows_msvc"
+  target_system_name: "x64_windows_msvc"
+  toolchain_identifier: "null-x64_windows_msvc"
+}
